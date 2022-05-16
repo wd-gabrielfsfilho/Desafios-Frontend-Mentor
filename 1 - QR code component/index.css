@@ -1,0 +1,90 @@
+/*general*/
+body {
+    margin: 0px;
+    padding: 0px;
+
+    height: 100vh;
+    box-sizing: border-box;
+  }
+
+
+  /*first container - gray*/
+  #container1 {
+    background-color: hsl(212, 45%, 89%);
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+  }
+
+  /*second container - white*/
+  #container1 div {
+    width: 350px;
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+
+    box-sizing: border-box;
+  }
+
+
+  /*second container elements*/
+  #container1 div img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  #container1 div h3 {
+    padding: 0px 12px;
+
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+  }
+
+  #container1 div p {
+    padding: 0px 12px;
+
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+  }
+
+
+  /*Frontend Mentor container*/
+  #fm {
+    height: 20vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+  }
+
+  #fm div {
+    text-align: center;
+  }
+
+  #fm div span {
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+  }
+
+  #fm a { 
+    color: hsl(228, 45%, 44%); 
+    font-family: 'Outfit', sans-serif;
+  }
+
+
+  /*responsive*/
+  @media screen and (max-width: 375px) {
+    #container1 div {
+      width: 90%;
+    }
+  }
