@@ -13,5 +13,5 @@ Esta é a minha solução para [QR code component challenge on Frontend Mentor](
 
 # O que aprendi
 
-- Seguir Ordens e requerimentos
+- Seguir Ordens e completar requerimentos necessarios
 - Construir uma pagina de scroll unico
