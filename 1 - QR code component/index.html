@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="keywords" content="QR code, fontened mentor, @wd-gabrielfsfilho">
+
+  <!--icon from Frontend Mentor-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--Link to font: https://fonts.google.com/specimen/Outfit-->
+  <!--Weights 400 and 700-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    /*general*/
+    body {
+      margin: 0px;
+      padding: 0px;
+
+      height: 100vh;
+      box-sizing: border-box;
+    }
+
+
+    /*first container - gray*/
+    #container1 {
+      background-color: hsl(212, 45%, 89%);
+      height: 80vh;
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+
+      box-sizing: border-box;
+    }
+
+    /*second container - white*/
+    #container1 div {
+      width: 350px;
+      padding: 15px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 15px;
+
+      box-sizing: border-box;
+    }
+
+
+    /*second container elements*/
+    #container1 div img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    #container1 div h3 {
+      padding: 0px 12px;
+
+      font-family: 'Outfit', sans-serif;
+      color: hsl(218, 44%, 22%);
+    }
+
+    #container1 div p {
+      padding: 0px 12px;
+
+      font-family: 'Outfit', sans-serif;
+      color: hsl(220, 15%, 55%);
+    }
+
+
+    /*Frontend Mentor container*/
+    #fm {
+      height: 20vh;
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+
+      box-sizing: border-box;
+    }
+
+    #fm div {
+      text-align: center;
+    }
+
+    #fm div span {
+      color: hsl(220, 15%, 55%);
+      font-family: 'Outfit', sans-serif;
+    }
+
+    #fm a { 
+      color: hsl(228, 45%, 44%); 
+      font-family: 'Outfit', sans-serif;
+    }
+
+
+    /*responsive*/
+    @media screen and (max-width: 375px) {
+      #container1 div {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container1">
+    <div>
+      <img src="./images/image-qr-code.png" alt="QR Code to Frontend Mentor Website">
+      <h3>Improve your front-end skills by building projects</h3>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+  <div id="fm">
+    <div>
+      <span>Improve your front-end skills by building projects. Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</span>
+      <br>
+      <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</span>
+      <br>
+      <span>Coded by <a href="https://www.frontendmentor.io/profile/wd-gabrielfsfilho">@wd-gabrielfsfilho</a>.</span>
+    </div>
+  </div>
+</body>
+</html>
