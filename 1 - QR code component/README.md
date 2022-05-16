@@ -7,7 +7,7 @@ Esta é a minha solução para [QR code component challenge on Frontend Mentor](
 
 - Marcação HTML5
 - Estilos CSS 3
-- Flexbox
+- Flexbox para centralização de componentes
 - Fluxo da pagina destinada a Desktop e Mobile
 
 
