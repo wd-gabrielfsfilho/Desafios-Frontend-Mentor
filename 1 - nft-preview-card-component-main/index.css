@@ -1,0 +1,102 @@
+body {
+    padding: 0px;
+    margin: 0px;
+
+    height: 100vh;
+}
+
+
+.container1 {
+    height: 80vh;
+    background-color: hsl(217, 54%, 11%);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.imagem1 {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.titulo1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.texto1 {
+    color: hsl(215, 51%, 70%);
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 15px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+}
+
+.texto2 {
+    color: hsl(178, 100%, 50%);
+}
+
+.container6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90px;
+}
+
+.texto3 {
+    color: hsl(215, 51%, 70%);
+}
+
+.container7 {
+    margin-top: 12px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 200px;
+}
+
+.imagem4 {
+    width: 25px;
+    border: 1px solid hsl(215, 51%, 70%);
+    border-radius: 15px;
+}
+
+.texto4 {
+    color: hsl(215, 51%, 70%);
+}
+
+.link {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
