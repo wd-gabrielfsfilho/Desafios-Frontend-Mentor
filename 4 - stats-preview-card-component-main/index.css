@@ -1,0 +1,131 @@
+/*corpo*/
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+
+/*componentes unicos*/
+#containerprincipal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+    background-color: #0a0c1b;
+}
+
+#containergrid {
+    display: grid;
+    grid-template-areas: "area2 area1";
+    gap: 0px;
+
+    width: 900px;
+
+    border-radius: 25px;
+}
+
+#area1 {
+    grid-area: area1;
+    width: 450px;
+
+    background-image: url(./images/image-header-desktop.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#area2 {
+    grid-area: area2;
+    width: 450px;
+
+    background-color: #1c1938;
+
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#area2itens {
+    padding: 25px;
+    margin-right: 50px;
+}
+
+#area2itens p {
+    line-height: 2;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 0px;
+}
+
+
+/*classes*/
+
+/*cores*/
+h1, h2 {
+    color: #ffffff;
+}
+
+.cor1 {
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+.cor2 {
+    color:hsl(277, 64%, 61%);
+}
+
+
+.fonte {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*responsividade*/
+@media screen and (max-width: 925px){    
+    #containergrid {
+        grid-template-areas: "area1"
+                             "area2";
+        width: 80vw;
+
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    #area1 {
+        width: 100%;
+        height: 350px;
+
+        background-image: url(./images/image-header-mobile.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 0px;
+    }
+
+    #area2 {
+        width: 100%;
+
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    #links {
+        flex-direction: column;
+    }
+}
