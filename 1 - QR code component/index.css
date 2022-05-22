@@ -7,122 +7,121 @@
 
 /*general*/
 body {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding-top: 0px;
 
-    height: 100vh;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 
-  /*first container - gray*/
-  #container1 {
-    background-color: hsl(212, 45%, 89%);
-    height: 80vh;
+/*first container - gray*/
+#container1 {
+  background-color: hsl(212, 45%, 89%);
+  padding: 25px;
 
-    display: -webkit-box;
+  display: -webkit-box;
 
-    display: -ms-flexbox;
+  display: -ms-flexbox;
 
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 
-    -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 
-            box-sizing: border-box;
-  }
+          box-sizing: border-box;
+}
 
-  /*second container - white*/
+/*second container - white*/
+#container1 div {
+  width: 350px;
+  padding: 15px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
+}
+
+
+/*second container elements*/
+#container1 div img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#container1 div h3 {
+  padding: 0px 12px;
+
+  font-family: 'Outfit', sans-serif;
+  color: hsl(218, 44%, 22%);
+}
+
+#container1 div p {
+  padding: 0px 12px;
+
+  font-family: 'Outfit', sans-serif;
+  color: hsl(220, 15%, 55%);
+}
+
+
+/*Frontend Mentor container*/
+#fm {
+  height: 20vh;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
+}
+
+#fm div {
+  text-align: center;
+}
+
+#fm div span {
+  color: hsl(220, 15%, 55%);
+  font-family: 'Outfit', sans-serif;
+}
+
+#fm a { 
+  color: hsl(228, 45%, 44%); 
+  font-family: 'Outfit', sans-serif;
+}
+
+
+/*responsive*/
+@media screen and (max-width: 375px) {
   #container1 div {
-    width: 350px;
-    padding: 15px;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 15px;
-
-    -webkit-box-sizing: border-box;
-
-            box-sizing: border-box;
+    width: 90%;
   }
-
-
-  /*second container elements*/
-  #container1 div img {
-    width: 100%;
-    border-radius: 10px;
-  }
-
-  #container1 div h3 {
-    padding: 0px 12px;
-
-    font-family: 'Outfit', sans-serif;
-    color: hsl(218, 44%, 22%);
-  }
-
-  #container1 div p {
-    padding: 0px 12px;
-
-    font-family: 'Outfit', sans-serif;
-    color: hsl(220, 15%, 55%);
-  }
-
-
-  /*Frontend Mentor container*/
-  #fm {
-    height: 20vh;
-
-    display: -webkit-box;
-
-    display: -ms-flexbox;
-
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-
-    -webkit-box-sizing: border-box;
-
-            box-sizing: border-box;
-  }
-
-  #fm div {
-    text-align: center;
-  }
-
-  #fm div span {
-    color: hsl(220, 15%, 55%);
-    font-family: 'Outfit', sans-serif;
-  }
-
-  #fm a { 
-    color: hsl(228, 45%, 44%); 
-    font-family: 'Outfit', sans-serif;
-  }
-
-
-  /*responsive*/
-  @media screen and (max-width: 375px) {
-    #container1 div {
-      width: 90%;
-    }
-  }
+}
