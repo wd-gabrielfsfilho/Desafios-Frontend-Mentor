@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
 body {
     margin: 0px;
     padding-top: 25px;
@@ -7,8 +14,9 @@ body {
 /*configuracoes unicas*/
 /*container grid*/
 #containergrid {
+    display: -ms-grid;
     display: grid;
-    grid-template-areas: "area1 area2 area3";
+        grid-template-areas: "area1 area2 area3";
     gap: 0px;
 
     margin: auto;
@@ -18,14 +26,20 @@ body {
 
 /*containers internos*/
 #container1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: area1;
 }
 
 #container2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
     grid-area: area2;
 }
 
 #container3 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
     grid-area: area3;
 }
 
@@ -59,7 +73,8 @@ a:hover {
 
 /*classes*/
 .caixa {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 300px;
 }
 
@@ -104,7 +119,7 @@ a:hover {
 @media screen and (max-width: 915px){
     #containergrid {
         width: 90%;
-        grid-template-areas: "area1"
+            grid-template-areas: "area1"
                              "area2"
                              "area3";
         max-width: 400px;
@@ -112,5 +127,17 @@ a:hover {
 
     .caixa {
         width: 100%;
+    }
+    #container1 {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    #container2 {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    #container3 {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
     }
 }
