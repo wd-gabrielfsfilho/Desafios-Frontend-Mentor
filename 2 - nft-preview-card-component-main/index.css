@@ -8,14 +8,12 @@
 body {
     padding: 0px;
     margin: 0px;
-
-    height: 100vh;
 }
 
 
 .container1 {
-    height: 80vh;
     background-color: hsl(217, 54%, 11%);
+    padding: 25px;
 
     display: -webkit-box;
 
@@ -163,48 +161,6 @@ body {
 .fonte {
     font-family: 'Outfit', sans-serif;
 }
-
-
-/*Frontend Mentor container*/
-#fm {
-    height: 20vh;
-
-    display: -webkit-box;
-
-    display: -ms-flexbox;
-
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-
-    -webkit-box-sizing: border-box;
-
-            box-sizing: border-box;
-  }
-
-  #fm div {
-    text-align: center;
-  }
-
-  #fm div span {
-    color: hsl(220, 15%, 55%);
-    font-family: 'Outfit', sans-serif;
-  }
-
-  #fm a { 
-    color: hsl(228, 45%, 44%); 
-    font-family: 'Outfit', sans-serif;
-  }
 
 
 /*responsividade*/
