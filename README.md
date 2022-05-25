@@ -1,6 +1,6 @@
 # Desafios - Frontend Mentor
 
-Desafios completados com sucesso usando o serviço [Frontend Mentor](https://www.frontendmentor.io)
+Desafios completados com sucesso usando o serviço [Frontend Mentor](https://www.frontendmentor.io) [wd-gabrielfsfilho](https://www.frontendmentor.io/profile/wd-gabrielfsfilho)
 
 1. [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H), [Minha solução](https://github.com/wd-gabrielfsfilho/Desafios-Frontend-Mentor/tree/main/1%20-%20QR%20code%20component)
 2. [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U), [Minha solução](https://github.com/wd-gabrielfsfilho/Desafios-Frontend-Mentor/tree/main/2%20-%20nft-preview-card-component-main)
