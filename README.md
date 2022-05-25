@@ -9,3 +9,7 @@ Desafios completados com sucesso usando o serviço [Frontend Mentor](https://www
 5. [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-), [Minha solução](https://github.com/wd-gabrielfsfilho/Desafios-Frontend-Mentor/tree/main/5%20-%20column-preview-card-component-main)
 6. [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ), [Minha solução](https://github.com/wd-gabrielfsfilho/Desafios-Frontend-Mentor/tree/main/6%20-%20profile-card-component-main)
 
+
+## Versão online com todas as soluções
+
+	[Todas as soluções](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/)
