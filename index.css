@@ -1,0 +1,24 @@
+/*fontes*/
+/*titulos*/
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+/*texto*/
+p, li, a {
+    font-family: 'Cardo', serif;
+}
+
+a {
+    color: black;
+}
+
+li{
+    line-height: 2em;
+}
+
+.link-button {
+    border: 2px solid black;
+    padding: 2px;
+    text-decoration: none;
+}
