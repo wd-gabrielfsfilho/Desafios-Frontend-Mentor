@@ -12,4 +12,4 @@ Desafios completados com sucesso usando o serviço [Frontend Mentor](https://www
 
 ## Versão online com todas as soluções
 
-	[Todas as soluções](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/)
+https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/
