@@ -1,0 +1,269 @@
+body{
+    margin: 0px;
+    padding: 80px 135px;
+
+    box-sizing: border-box;
+
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed;
+}
+
+/*configura o css grid*/
+#container-area12 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+#container-area12::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*areas do css grid*/
+#area1 {
+    box-sizing: border-box;
+    width: 40%;
+    height: 400px;
+}
+
+#area2 {
+    box-sizing: border-box;
+    width: 60%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+#area3 {
+    box-sizing: border-box;
+    height: 350px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    gap: 15px;
+}
+
+
+
+/*area com as estrelas*/
+.container-estrelas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+
+    background-color: #f7f2f8;
+
+    border-radius: 12px;
+
+    font-weight: 700;
+}
+
+
+
+/*area com os comentarios*/
+.area-comentario {
+    display: inline-block;
+    width: 30%;
+    padding: 25px;
+    background-color: #511f50;
+    color: white;
+
+    border-radius: 15px;
+}
+
+
+
+/*filhos do #area2*/
+.area2-filho1 {
+    align-self: flex-start;
+    padding: 25px;
+}
+
+.area2-filho2 {
+    align-self: center;
+    padding: 25px;
+}
+
+.area2-filho3 {
+    align-self: flex-end;
+    padding: 25px;
+}
+
+
+
+/*container com as estrelas*/
+.estrelas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 5px;
+}
+
+
+
+/*area com os filhos do #area3*/
+.area3-filho1 {
+    align-self: flex-start;
+}
+
+.area3-filho2 {
+    align-self: center;
+}
+
+.area3-filho3 {
+    align-self: flex-end;
+}
+
+.area3-foto-texto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    column-gap: 25px;
+}
+
+.area3-foto {
+    border-radius: 50%;
+}
+
+.area3-texto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.area3-texto2 {
+    line-height: 1.5em;
+}
+
+
+/*estilos*/
+.titulo {
+    font-size: 3em;
+}
+
+.bloco {
+    display: block;
+}
+
+.fonte {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.cor-texto1 {
+    color: #511f50;
+}
+
+.cor-texto2 {
+    color: #8f828f;
+}
+
+.cor-texto3 {
+    color: #ab4982
+}
+
+
+
+/*mobilidade - telas menores que 1080*/
+@media screen and (max-width: 1080px){
+    body {
+        margin: 0px;
+        padding: 15px;
+        box-sizing: border-box;
+
+        background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+        background-position: top left, bottom right;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: fixed, fixed;
+    }
+
+    #container-area12 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #area1 {
+        width: 100%;
+        height: auto;
+    }
+
+    #area2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+        width: 100%;
+    }
+
+    .container-estrelas {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+        gap: 15px;
+
+        box-sizing: border-box;
+    }
+
+    .area2-filho1, .area2-filho2, .area2-filho3 {
+        width: 100%;
+        align-self: center;
+    }
+
+    #area3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+        gap: 15px;
+        height: auto;
+
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .area3-filho1, .area3-filho2, .area3-filho3 {
+        align-self: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
