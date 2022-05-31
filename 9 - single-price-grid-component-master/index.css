@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#area1 {
+    box-sizing: border-box;
+
+    width: 80%;
+    margin: auto;
+}
+
+#area2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#area2 {
+    box-sizing: border-box;
+
+    width: 80%;
+    margin: auto;
+}
+
+#area3 {
+    box-sizing: border-box;
+
+    width: 50%;
+    float: left;
+}
+
+#area4 {
+    box-sizing: border-box;
+
+    width: 50%;
+    float: left;
+}
