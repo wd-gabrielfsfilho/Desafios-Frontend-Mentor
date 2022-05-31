@@ -9,7 +9,8 @@ Desafios completados com sucesso usando o serviço [Frontend Mentor](https://www
 5. [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-), [Minha solução](https://github.com/wd-gabrielfsfilho/Desafios-Frontend-Mentor/tree/main/5%20-%20column-preview-card-component-main)
 6. [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ), [Minha solução](https://github.com/wd-gabrielfsfilho/Desafios-Frontend-Mentor/tree/main/6%20-%20profile-card-component-main)
 7. [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA), [Minha solução](https://github.com/wd-gabrielfsfilho/Desafios-Frontend-Mentor/tree/main/7%20-%20social-proof-section-master)
-8. [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/8%20-%20four-card-feature-section-master)
+8. [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/8%20-%20four-card-feature-section-master)
+9. [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/9%20-%20single-price-grid-component-master)
 
 
 ## Versão online com todas as soluções
