@@ -1,7 +1,149 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 100px 0 0 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: bisque;
 }
 
+#containerpai {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+
+    box-sizing: border-box;
+
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #674bb1;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+#containerfilhos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 0;
+
+    box-sizing: border-box;
+}
+
+#filho1 {
+    width: 55%;
+    box-sizing: border-box;
+}
+
+#filho1 img {
+    width: 100%;
+}
+
+#filho2 {
+    width: 45%;
+    box-sizing: border-box;
+    padding: 25px;
+
+    color: #ffffff;
+}
+
+#botaofilho2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#botaofilho2 a {
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: #ffffff;
+    color: #674bb1;
+    border-radius: 25px;
+    box-shadow: 8px 8px 12px #47347c;
+}
+
+#rodape {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
+.iconerodape {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+
+/*mobilidade*/
+@media screen and (max-width: 1200px){
+    body {
+        padding: 0;
+    }
+
+    #containerpai {
+        width: 100%;
+        background-image: url(./images/bg-mobile.svg);
+        background-size: 100% 60%;
+        background-repeat: no-repeat;
+    }
+
+    #containerfilhos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 0;
+    
+        box-sizing: border-box;
+    }
+    
+    #filho1 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #filho2 {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+
+    #botaofilho2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #botaofilho2 a {
+        margin: 25px 0;
+    }
+
+    #rodape {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+}
