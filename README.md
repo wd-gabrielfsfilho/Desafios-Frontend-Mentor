@@ -11,6 +11,8 @@ Desafios completados com sucesso usando o serviço [Frontend Mentor](https://www
 7. [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA), [Minha solução](https://github.com/wd-gabrielfsfilho/Desafios-Frontend-Mentor/tree/main/7%20-%20social-proof-section-master)
 8. [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/8%20-%20four-card-feature-section-master)
 9. [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/9%20-%20single-price-grid-component-master)
+10. [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/10%20-%20huddle-landing-page-with-single-introductory-section-master)
+11. [Testimonials grid section on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/11%20-%20testimonials-grid-section-main)
 
 
 ## Versão online com todas as soluções
