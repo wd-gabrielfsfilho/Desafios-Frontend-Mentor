@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 50px 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #edf2f8;
+
+    box-sizing: border-box;
+}
+
+#cssgrid {
+    display: grid;
+    grid-template-areas: "area1 area1 area2 area5"
+                         "area3 area4 area4 area5";
+    gap: 25px;
+
+    width: 90%;
+    margin: auto;
+
+    box-sizing: border-box;
+}
+
+#area1 {
+    grid-area: area1;
+
+    background-color: #733fc8;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 2%;
+}
+
+#area2 {
+    grid-area: area2;
+
+    background-color: #49556b;
+}
+
+#area3 {
+    grid-area: area3;
+
+    background-color: #ffffff;
+}
+
+#area4 {
+    grid-area: area4;
+
+    background-color: #18202d;
+}
+
+#area5 {
+    grid-area: area5;
+
+    background-color: #ffffff;
+}
+
+#area1, #area2, #area3, #area4, #area5 {
+    padding: 25px;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+}
+
+#area1, #area2, #area4 {
+    color: #ffffff;
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+.dados img {
+    border-radius: 50%;
+}
+
+.dados div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/*mobilidade*/
+@media screen and (max-width: 1200px){
+    #cssgrid {
+        grid-template-areas: "area1"
+                             "area2"
+                             "area3"
+                             "area4"
+                             "area5";
+        width: 95%;
+    }
+}
