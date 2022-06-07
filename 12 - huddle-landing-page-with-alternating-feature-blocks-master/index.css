@@ -259,11 +259,12 @@ e terminar a parte mobile*/
 }
 
 #subcontainer12 img {
+    box-sizing: content-box;
     width: 25px;
     height: 25px;
 
     border: 2px solid #ffffff;
-    padding: 5px;
+    padding: 10px;
 
     border-radius: 50%;
 }
