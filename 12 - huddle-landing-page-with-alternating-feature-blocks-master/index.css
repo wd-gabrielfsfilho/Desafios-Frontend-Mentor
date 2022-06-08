@@ -273,6 +273,9 @@ e terminar a parte mobile*/
 
 /*mobile*/
 @media screen and (max-width: 800px){
+    #subcontainer1 {
+        padding: 5px;
+    }
     #subcontainer2 {
         flex-direction: column;
         justify-content: center;
