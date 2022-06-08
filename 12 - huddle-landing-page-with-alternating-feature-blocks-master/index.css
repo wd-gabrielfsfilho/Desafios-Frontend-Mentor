@@ -142,9 +142,7 @@
     background-image: url(./images/fundo.png);
     background-repeat: no-repeat;
     background-size: 100% 40%;
-    background-position: bottom;
-
-    border-bottom: 1px solid #00252e;
+    background-position: left bottom;
 }
 
 #container5 {
@@ -272,6 +270,7 @@ e terminar a parte mobile*/
 #huddleperdido {
     background-color: #00252e;
     padding: 75px;
+    box-sizing: border-box;
 }
 
 /*mobile*/
@@ -301,7 +300,7 @@ e terminar a parte mobile*/
     }
 
     #container5-pai {
-        padding: 0;
+        padding: 25px;
     }
 
     #container5 {

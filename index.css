@@ -58,6 +58,7 @@ p {
 /*fontes para os titulos e textos*/
 .titulo {
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 
 .texto {
@@ -68,6 +69,8 @@ p {
 .area {
     width: 80%;
     margin: 25px auto 0 auto;
+
+    padding: 20px;
 
     display: flex;
     flex-direction: column;
@@ -94,6 +97,7 @@ p {
 
 .imagem2 {
     height: 250px;
+    width: 100%;
 }
 
 .final {
