@@ -23,10 +23,8 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-}
 
-#subcontainer1 img, a {
-    margin: 40px;
+    padding: 50px;
 }
 
 #subcontainer1 a {
