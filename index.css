@@ -81,6 +81,8 @@ p {
     box-shadow: 0 0 20px black;
     border-radius: 25px;
 
+    overflow: visible;
+
     box-sizing: border-box;
 }
 
@@ -96,8 +98,8 @@ p {
 }
 
 .imagem2 {
-    height: 250px;
     width: 100%;
+    max-height: 250px;
 }
 
 .final {
