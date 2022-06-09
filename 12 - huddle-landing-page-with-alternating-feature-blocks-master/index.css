@@ -140,7 +140,7 @@
     background-image: url(./images/fundo.png);
     background-repeat: no-repeat;
     background-size: 100% 40%;
-    background-position: left bottom;
+    background-position: left bottom -2px;
 }
 
 #container5 {
