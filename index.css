@@ -1,59 +1,22 @@
+* {
+    max-width: 1080px;
+    box-sizing: border-box;
+
+    margin: auto;
+}
 /*titulo e texto central*/
 h1 {
     width: 80%;
-    margin: auto;
+    margin: 45px auto;
 }
 
 p {
     width: 80%;
-    margin: auto;
+    margin: 25px auto;
 
     font-weight: 600;
     font-size: 1em;
 }
-
-/*area do contato*/
-#areacontato {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: center;
-
-    padding: 5px;
-}
-
-#contato {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-
-    padding: 10px;
-    border-radius: 10px;
-
-    box-shadow: 0 0 10px #444444;
-}
-
-#contato:hover {
-    background-color: #dfdfdf;
-}
-
-#contato img {
-    width: 64px;
-    border-radius: 50%;
-}
-
-#dados {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
 
 /*fontes para os titulos e textos*/
 .titulo {
@@ -78,7 +41,7 @@ p {
     justify-content: space-between;
     align-items: center;
 
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 3px black;
     border-radius: 25px;
 
     overflow: visible;
@@ -104,4 +67,9 @@ p {
 
 .final {
     margin-bottom: 15px;
+}
+
+
+#final {
+    margin-bottom: 50px;
 }
