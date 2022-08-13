@@ -82,6 +82,7 @@
 /*outros containers*/
 #container2, #container3, #container4 {
     width: 80%;
+    max-width: 1080px;
     margin: 0 auto 50px auto;
 
     display: flex;
@@ -251,18 +252,15 @@ e terminar a parte mobile*/
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
 }
 
 #subcontainer12 img {
-    box-sizing: content-box;
+    box-sizing: border-box;
+
+    border: auto;
+    
     width: 25px;
-    height: 25px;
-
-    border: 2px solid #ffffff;
-    padding: 10px;
-
-    border-radius: 50%;
 }
 
 #huddleperdido {
