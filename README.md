@@ -14,7 +14,9 @@ Desafios completados com sucesso usando o serviço [Frontend Mentor](https://www
 10. [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/10%20-%20huddle-landing-page-with-single-introductory-section-master)
 11. [Testimonials grid section on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/11%20-%20testimonials-grid-section-main)
 12. [Huddle landing page with alternating feature blocks](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/12%20-%20huddle-landing-page-with-alternating-feature-blocks-master)
+13. [Chat app CSS illustration](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/12%20-%20huddle-landing-page-with-alternating-feature-blocks-master)
 
+13 - chat-app-css-illustration-master
 
 ## Versão online com todas as soluções
 
