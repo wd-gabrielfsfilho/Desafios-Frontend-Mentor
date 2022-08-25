@@ -2,54 +2,49 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
    version="1.1"
-   id="svg59"
-   width="240.23106"
-   height="93.256775"
-   viewBox="0 0 240.23106 93.256775"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="fundo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.75455247"
+     inkscape:cx="341.92453"
+     inkscape:cy="561.92249"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
-     id="defs63">
-    <linearGradient
-       id="linearGradient1364">
-      <stop
-         style="stop-color:#903bff;stop-opacity:1;"
-         offset="0"
-         id="stop1360" />
-      <stop
-         style="stop-color:#dc42fe;stop-opacity:1;"
-         offset="1"
-         id="stop1362" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient1657">
-      <stop
-         style="stop-color:#cccccc;stop-opacity:1;"
-         offset="0"
-         id="stop1653" />
-      <stop
-         style="stop-color:#cccccc;stop-opacity:0;"
-         offset="1"
-         id="stop1655" />
-    </linearGradient>
-    <linearGradient
-       xlink:href="#linearGradient1364"
-       id="linearGradient1366"
-       x1="-607.51367"
-       y1="189.85733"
-       x2="-470.30734"
-       y2="189.85733"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.7622543,0,0,1.8477412,739.56837,212.91123)" />
-  </defs>
+     id="defs2" />
   <g
-     id="g65"
-     transform="translate(330.24454,-517.09009)">
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
     <path
-       id="rect1307"
-       style="fill:url(#linearGradient1366);fill-opacity:1;stroke:none;stroke-width:1.59878"
-       d="m -330.24453,517.09006 v 93.25679 h 240.231067 v -93.25679 h -49.043677 v 10.16258 c 0,9.51219 -7.30445,17.16738 -16.37657,17.16738 h -109.39056 c -9.07212,0 -16.37658,-7.65519 -16.37658,-17.16738 v -10.16258 z" />
+       style="fill:#f9f8fe;stroke:none;stroke-width:0.604837;fill-opacity:1"
+       d="M 31.207792,90.116881 V 207.93506 H 272.8052 V 84.857142 c 0,0 -143.76624,-44.532468 -241.597408,5.259739 z"
+       id="path480"
+       inkscape:export-filename="fundo.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>
