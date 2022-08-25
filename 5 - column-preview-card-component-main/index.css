@@ -1,5 +1,12 @@
 /*
 * Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.12,
 * Autoprefixer: v10.4.4
 * Browsers: last 4 version
@@ -16,7 +23,7 @@ body {
 #containergrid {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "area1 area2 area3";
+            grid-template-areas: "area1 area2 area3";
     gap: 0px;
 
     margin: auto;
@@ -119,7 +126,7 @@ a:hover {
 @media screen and (max-width: 915px){
     #containergrid {
         width: 90%;
-            grid-template-areas: "area1"
+                grid-template-areas: "area1"
                              "area2"
                              "area3";
         max-width: 400px;
