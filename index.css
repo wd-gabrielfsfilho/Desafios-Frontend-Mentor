@@ -16,6 +16,8 @@
 h1 {
     width: 80%;
     margin: 45px auto;
+
+    font-size: 48px;
 }
 
 p {
@@ -23,7 +25,8 @@ p {
     margin: 25px auto;
 
     font-weight: 600;
-    font-size: 1em;
+    font-size: 28px;
+    text-align: justify;
 }
 
 /*fontes para os titulos e textos*/
@@ -34,6 +37,8 @@ p {
 
 .texto {
     font-family: 'Cardo', serif;
+
+    font-size: 24px;
 }
 
 /*area das divisoes*/
