@@ -1,25 +1,40 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
     margin: 0;
     padding: 50px 0;
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: #edf2f8;
 
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
 }
 
 #cssgrid {
+    display: -ms-grid;
     display: grid;
-    grid-template-areas: "area1 area1 area2 area5"
+        grid-template-areas: "area1 area1 area2 area5"
                          "area3 area4 area4 area5";
     gap: 25px;
 
     width: 90%;
     margin: auto;
 
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
 }
 
 #area1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
     grid-area: area1;
 
     background-color: #733fc8;
@@ -29,24 +44,34 @@ body {
 }
 
 #area2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
     grid-area: area2;
 
     background-color: #49556b;
 }
 
 #area3 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: area3;
 
     background-color: #ffffff;
 }
 
 #area4 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
     grid-area: area4;
 
     background-color: #18202d;
 }
 
 #area5 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 7;
     grid-area: area5;
 
     background-color: #ffffff;
@@ -56,7 +81,9 @@ body {
     padding: 25px;
     border-radius: 10px;
 
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
 }
 
 #area1, #area2, #area4 {
@@ -64,11 +91,21 @@ body {
 }
 
 .dados {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 25px;
 }
 
@@ -77,22 +114,55 @@ body {
 }
 
 .dados div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 
 
 /*mobilidade*/
 @media screen and (max-width: 1200px){
     #cssgrid {
-        grid-template-areas: "area1"
+            grid-template-areas: "area1"
                              "area2"
                              "area3"
                              "area4"
                              "area5";
         width: 95%;
+    }
+    #area1 {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+    }
+    #area2 {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    #area3 {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    #area4 {
+        -ms-grid-row: 4;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+    }
+    #area5 {
+        -ms-grid-row: 5;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 1;
     }
 }
