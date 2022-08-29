@@ -16,6 +16,7 @@ Desafios completados com sucesso usando o serviço [Frontend Mentor](https://www
 12. [Huddle landing page with alternating feature blocks](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/12%20-%20huddle-landing-page-with-alternating-feature-blocks-master)
 13. [Chat app CSS illustration](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/13%20-%20chat-app-css-illustration-master)
 14. [Fylo landing page with two column layout](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/14%20-%20fylo-landing-page-with-two-column-layout-master)
+15. [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/14%20-%20fylo-landing-page-with-two-column-layout-master)
 
 ## Versão online com todas as soluções
 
