@@ -17,7 +17,7 @@ Desafios completados com sucesso usando o serviço [Frontend Mentor](https://www
 13. [Chat app CSS illustration](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/13%20-%20chat-app-css-illustration-master)
 14. [Fylo landing page with two column layout](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/14%20-%20fylo-landing-page-with-two-column-layout-master)
 15. [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/15%20-%20product-preview-card-component-main)
-16. [Huddle landing page with curved sections](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/16%20-%20huddle-landing-page-with-curved-sections/index.html), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/16%20-%20huddle-landing-page-with-curved-sections)
+16. [Huddle landing page with curved sections](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2), [Minha solução](https://wd-gabrielfsfilho.github.io/Desafios-Frontend-Mentor/16%20-%20huddle-landing-page-with-curved-sections)
 
 ## Versão online com todas as soluções
 
